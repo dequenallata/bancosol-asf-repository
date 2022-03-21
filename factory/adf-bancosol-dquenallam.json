@@ -1,0 +1,9 @@
+{
+	"name": "adf-bancosol-dquenallam",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "04941896-f672-4cfb-85a1-70ffbd08c712",
+		"tenantId": "799ec06b-11b6-4308-90e0-8d75e21b0111"
+	}
+}
