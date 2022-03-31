@@ -2,6 +2,24 @@
 	"name": "PL_PRUEBA_FLUJOS",
 	"properties": {
 		"description": "Pipeline generado para ejemplo de flujos",
+		"activities": [
+			{
+				"name": "configurar saludo",
+				"description": "Configurar la variable saludo",
+				"type": "SetVariable",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"variableName": "saludo",
+					"value": "Hola data Factory"
+				}
+			}
+		],
+		"variables": {
+			"saludo": {
+				"type": "String"
+			}
+		},
 		"folder": {
 			"name": "CLASE01"
 		},
