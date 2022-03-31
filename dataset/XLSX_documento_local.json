@@ -18,6 +18,19 @@
 			},
 			"firstRowAsHeader": true
 		},
-		"schema": []
+		"schema": [
+			{
+				"name": "id",
+				"type": "String"
+			},
+			{
+				"name": "nombre",
+				"type": "String"
+			},
+			{
+				"name": "edad",
+				"type": "String"
+			}
+		]
 	}
 }
