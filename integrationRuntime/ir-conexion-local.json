@@ -1,0 +1,7 @@
+{
+	"name": "ir-conexion-local",
+	"properties": {
+		"type": "SelfHosted",
+		"description": "Integracion services para conectarme a los recursos de mi conexion local"
+	}
+}
