@@ -1,0 +1,26 @@
+{
+	"name": "csv_docuementoejemplo",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_conexiondatalake_bsol",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "CLASE2"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "Archivo.csv",
+				"folderPath": "Clase02"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}

@@ -1,0 +1,27 @@
+{
+	"name": "csv_prueba2",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_conexiondatalake_bsol",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "CLASE2"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "prueba.csv",
+				"folderPath": "prueba",
+				"fileSystem": "aci-dquenallam"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}

@@ -1,0 +1,24 @@
+{
+	"name": "Parquet_clase2",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_conexiondatalake_bsol",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "CLASE2"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "ejemplo02parcket",
+				"folderPath": "prueba",
+				"fileSystem": "aci-dquenallam"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	}
+}

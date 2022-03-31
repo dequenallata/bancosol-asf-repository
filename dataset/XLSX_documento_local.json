@@ -1,0 +1,36 @@
+{
+	"name": "XLSX_documento_local",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_maquina_local",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "CLASE2"
+		},
+		"annotations": [],
+		"type": "Excel",
+		"typeProperties": {
+			"sheetName": "Hoja1",
+			"location": {
+				"type": "FileServerLocation",
+				"fileName": "reporte.xlsx"
+			},
+			"firstRowAsHeader": true
+		},
+		"schema": [
+			{
+				"name": "id",
+				"type": "String"
+			},
+			{
+				"name": "nombre",
+				"type": "String"
+			},
+			{
+				"name": "edad",
+				"type": "String"
+			}
+		]
+	}
+}
