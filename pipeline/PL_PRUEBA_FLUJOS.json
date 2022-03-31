@@ -1,0 +1,10 @@
+{
+	"name": "PL_PRUEBA_FLUJOS",
+	"properties": {
+		"description": "Pipeline generado para ejemplo de flujos",
+		"folder": {
+			"name": "CLASE01"
+		},
+		"annotations": []
+	}
+}
