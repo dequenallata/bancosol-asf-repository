@@ -13,10 +13,36 @@
 					"variableName": "saludo",
 					"value": "Hola data Factory"
 				}
+			},
+			{
+				"name": "Set variable1",
+				"type": "SetVariable",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"variableName": "bandera",
+					"value": true
+				}
+			},
+			{
+				"name": "Set variable2",
+				"type": "SetVariable",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"variableName": "despedida",
+					"value": "Adios Data factory"
+				}
 			}
 		],
 		"variables": {
 			"saludo": {
+				"type": "String"
+			},
+			"bandera": {
+				"type": "Boolean"
+			},
+			"despedida": {
 				"type": "String"
 			}
 		},
