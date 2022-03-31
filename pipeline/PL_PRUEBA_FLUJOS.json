@@ -28,7 +28,7 @@
 				"userProperties": [],
 				"typeProperties": {
 					"variableName": "bandera",
-					"value": true
+					"value": "Hola"
 				}
 			},
 			{
