@@ -1,0 +1,12 @@
+{
+	"name": "db_",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"connectionString": "integrated security=False;encrypt=True;connection timeout=30;data source=sqldb-bancosol-training.database.windows.net;initial catalog=sqldb-bancosol-training;user id=admin_datafactory",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDFGMEU3RTNDLTEyQTktNEZBRS1CQzlCLUI1QUQwNjBBNjgwRF8yOTZmNjQ3ZS01NWZlLTRkOGItYTAwZS0zYzE2MDE4NjA4ZGIiDQp9"
+		}
+	}
+}
